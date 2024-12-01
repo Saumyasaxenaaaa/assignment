@@ -4,327 +4,192 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <title>Tailwind Project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="main">
-        <ul class="nav nav-pills nav-fill navbar">
-            <li class="nav-item logo">
-                <!-- <a class="nav-link disabled" href="#">Active</a> -->
-                <img src="./images/logo.jpg">
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Education Partners</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">World Class mentor</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">CMA as career ?</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Our Alumni</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Road Map</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Why NSA ?</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">100% Placement</a>
-            </li>
-            <li class="nav-item">
-                <button type="button" class="btn btn-danger text-warning">Enroll now</button>
-            </li>
-        </ul>
+    <header class="bg-green-500 p-7 flex items-center justify-between  w-full h-9">
+        <a href="#" class="text-white text-lg">Call Us Now: 555 376 7872</a>
 
-        <div class="container d-flex">
-            <div class="text-col">
-                <h1 class="heading">Unlock your Financial Potential <span
-                        style="background-color: rgba(255, 255, 0, 0.759);">With CMA</span></h1>
-                <span class="bg-warning">About course</span>
-                <p>CMA(Certified Management Accountant) USA is a globally recognized professional certification in the
-                    field of management accounting offered by the Institute of Management Accountants (IMA). The
-                    Certification demonstrates expertise in financial planning, analysis, control, decision support, and
-                    professional ethics
-                </p>
-                <img src="./images/background.jpg">
-            </div>
-
-            <div class="form-col">
-                <h2 class="text-center text-white">Future proof your Finance Career</h2>
-                <p class="text-secondary text-center">Unlock your potrntial and take step towards success with world
-                    class Mentor in our upcoming
-                </p>
-                <div class="date bg-warning">12-02-2023 | 12:00 PM</div><br />
-                <div class="form">
-
-                    <div class="form-group mx-sm-3 mb-2">
-                        <label for="inputPassword2" class="sr-only">Password</label>
-                        <input type="text" class="form-control" id="inputPassword2" placeholder="Enter your full name">
-                    </div>
-                    
-                    <div class="form-group mx-sm-3 mb-2">
-                        <label for="inputPassword2" class="sr-only">Password</label>
-                        <input type="text" class="form-control" id="inputPassword2" placeholder="Enter your Email">
-                    </div>
-
-                    <!-- <input type='tel' name="phone" id="phone"> -->
-                    <div class="form-group mx-sm-3 mb-2">
-                        <label for="inputPassword2" class="sr-only">Enter your city</label>
-                        <input type="tel" class="form-control" id="inputPassword2" placeholder="Enter phone">
-                    </div>
-
-
-                    <p class="text-white pt-1">Let us know about your basic qualification</p>
-
-                    <input type="radio" for="student">
-                    <label for="student" class="text-white">Student</label>
-
-                    <input type="radio" for="professional">
-                    <label for="professional" class="text-white">Professional</label>
-
-                    <div class="form-group mx-sm-3 mb-2">
-                        <label for="inputPassword2" class="sr-only">Enter your city</label>
-                        <input type="password" class="form-control" id="inputPassword2"
-                            placeholder="Enter your city name">
-                    </div>
-
-
-
-                    <div class="form-check p-2">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label text-white" for="defaultCheck1">
-                            <!-- Accept terms, privacy policy and get seamless support on whatsapp -->
-                            Accept terms and conditions
-                        </label>
-                    </div>
-                    <button class="bg-danger text-warning"
-                        style="box-shadow: 5px 5px 5px rgba(255, 0, 0, 0.548);">Register for the webinar</button>
-                </div>
-            </div>
-
-
-            <div class="text-col">
-                <span class="content">Content Partner</span>
-                <p>CMA(Certified Management Accountant) USA is a globally recognized professional certification in the
-                    field of management accounting offered by the Institute of Management Accountants (IMA). The
-                    Certification demonstrates expertise in financial planning
-                </p>
-                <div class="images" style="margin-left: 0;">
-                    <img src="./images/logo.jpg">
-                    <img src="./images/ima.jpg" style="margin-left: 20px;">
-                    <img src="./images/becker.jpg" style="margin-left: 20px;">
-                </div>
-            </div>
-
-            <div class="img-col">
-                <img src="./images/twoMobile.jpg">
-            </div>
-
-
-        </div>
-
-        <div class="container2">
-            <div class="inner-container">
-                <span class="text">MEET M.IRRAT | INDIA'S LEADING CMA & CPA INSTRUCTOR</span>
-                <h1 class="heading text-white">A Professional CA, CMA(USA), CPA, and CIMA(UK) with
-                </h1>
-                <p>CMA(Certified Management Accountant) USA is a globally recognized professional certification in the
-                    field of management accounting offered by the Institute of Management Accountants (IMA). The
-                    Certification demonstrates expertise in financial planning, analysis, control, decision support, and
-                    professional ethics
-                </p>
-                <div class="fonts">
-                    <h2>
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div> Google <div class="star">5 star</div>
-                    </h2>
-
-                    <h2>
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div> <img
-                            src="https://tse3.mm.bing.net/th?id=OIP.ENIq-U2iyx2c51zh5Hv5aAAAAA&pid=Api&P=0&h=180">
-                        facebook <div class="star">5 star</div>
-                    </h2>
-
-                    <h2>
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div> JustDial <div class="star">5 star</div>
-                    </h2>
-
-                    <h2>
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div> <img src="./images/earth.jpg"> Sulekha <div class="star">5 star</div>
-                    </h2>
-                </div>
-
-                <div class="boxes">
-                    <div class="box1">
-                        <img
-                            src="https://www.pngitem.com/pimgs/m/75-758282_walter-circle-person-photo-in-circle-hd-png.png">
-                        <span>Mùchén Hàoyú</span>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias dolor sit amet consectetur
-                            adisipocing offered by the Institute of management system</p>
-                    </div>
-
-                    <div class="box2">
-                        <img
-                            src="https://www.pngitem.com/pimgs/m/75-758282_walter-circle-person-photo-in-circle-hd-png.png">
-                        <span>Hwang Yìchén</span>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias dolor sit amet consectetur
-                            adisipocing offered by the Institute</p>
-
-                    </div>
-
-                    <div class="box3">
-                        <img
-                            src="https://www.pngitem.com/pimgs/m/75-758282_walter-circle-person-photo-in-circle-hd-png.png">
-                        <span>Hàorán Hize</span>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias dolor sit amet consectetur
-                            adisipocing offered by the Institute management</p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="man-container">
-                <img src="https://clipart-library.com/images_k/black-man-transparent/black-man-transparent-12.png">
-            </div>
-        </div>
-
-        <div class="container3">
-            <div class="webinar">
-                <div class="heading-webinar">
-                    <h1>Embrace the power of your future and take control of it</h1>
-                    <span class="info">Sign up for the CMA webinar</span>
-                    <span class="info">A complete guide to crack CMA</span>
-                </div>
-                <div class="webinar-date">
-                    <span>Webinar Date</span>
-                    <h3 class="date">26th Feb</h3>
-                    <h3>1:00 pm</h3>
-                    <h3>Sunday</h3>
-                </div>
-                <button>Register Now</button>
-            </div>
-        </div>
-
-        <div class="container4">
-            <div class="box1">
-                <h1>Why CMA ? </h1>
-                <p>CMA(Certified Management Accountant) USA is a globally recognized professional certification in the
-                    field of management accounting offered by the Institute of Management Accountants (IMA). The
-                    Certification demonstrates expertise in financial planning, analysis, control, decision support, and
-                    professional ethics.
-                </p>
-
-                <a href="#" class="active">Course Overview</a>
-                <a href="#">Scope</a>
-                <a href="#">Eligibility</a>
-                <a href="#">Oppurtunity</a>
-                <a href="#">Salary</a>
-            </div>
-
-            <div class="inner-para">
-                <p> CMA(Certified Management Accountant) USA is a globally recognized professional certification in the
-                    field of management accounting offered by the Institute of Management Accountants (IMA). The
-                    Certification demonstrates expertise in financial planning, analysis, control, decision support, and
-                    professional ethics.
-                </p>
-                <ul>
-                    <li><span id="bullets">&#10151;</span>CMA(Certified Management Accountant) USA is a globally
-                        recognized professional certification in
-                        the
-                        field of management accounting
-                    </li>
-
-                    <li><span id="bullets">&#10151;</span>Offered by the Institute of Management Accountants (IMA). The
-                        Certification demonstrates expertise
-                    </li>
-
-                    <li><span id="bullets">&#10151;</span>In financial planning, analysis, control, decision support,
-                        and
-                        professional ethics. To earn the CMA
-                    </li>
-
-                    <li><span id="bullets">&#10151;</span>To earn the id CMA designation Lorem ipsum dolor sit amet
-                        consectetur adipisicing
-                        elit.uos a obcaecati optio?
-                    </li>
-                </ul>
-            </div>
-
-            <button>Register Now</button>
-        </div>
-
-        <div class="hiring-partner">
-            <div class="icon">
-                <img src="./images/onGoing.jpg">
-                <h1>45+</h1>
-                <h6>On Going</h6>
-                <h6>Batches</h6>
-            </div>
-
-            <div class="icon">
-                <img src="./images/earth.jpg">
-                <h1>35+</h1>
-                <h6>Countries</h6>
-                <h6>Covered</h6>
-            </div>
-
-            <div class="icon">
-                <img src="./images/hiring.jpg">
-                <h1>128+</h1>
-                <h6>Hiring</h6>
-                <h6>Partners</h6>
-            </div>
-
-            <div class="icon">
-                <img src="./images/pass.jpg">
-                <h1>90%</h1>
-                <h6>Pass</h6>
-                <h6>Percentage</h6>
-            </div>
-        </div>
-
-        <div class="reference">
-            <img src="./images/logo.jpg">
-            <h2>Refer a friend or colleague now and receive a special benefit for your referral</h2>
-            <button><i class="fa-brands fa-whatsapp" style="margin-right: 6px;"></i>Register Now</button>
-            <p>CMA(Certified Management Accountant) USA is a globally recognized professional certification in the
-                field of management accounting offered by the Institute of Management
-            </p>
+        <nav class="navbar flex items-center justify-center">
+            <a href="#"><i class="fa-brands fa-facebook-f text-2xl mx-4 text-white"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter text-2xl mx-4 text-white"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest-p text-2xl mx-4 text-white"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram text-2xl mx-4 text-white"></i></a>
+        </nav>
+    </header>
+    <div class="navbar w-full h-36 flex items-center justify-center flex-col">
+        <img class="py-8 m-auto" src="images/logo.png">
+        <div class="links">
+            <a href="/index.html" class="tracking-wide ml-14 cursor-pointer text-lg text-gray-600 text-yellow-500 underline">HOME</a>
+            <a href="/about.html" class="tracking-wide ml-14 cursor-pointer text-lg text-gray-600">ABOUT</a>
+            <a href="/contact.html" class="tracking-wide ml-14 cursor-pointer text-lg text-gray-600">CONTACT US</a>
         </div>
     </div>
+
+    <div class="garden">
+        <img id="home" src="images/img1.jpg" class="mt-5">
+        <div class="text absolute top-72 left-auto flex items-center justify-center flex-col">
+            <h1 class="text-white font-extrabold text-5xl w-96 text-center mb-4">GARDEN CARE is our true passion!</h1>
+            <p class="text-white text-3xl w-5/12 text-center tracking-wide mb-5">SO WHENEVER YOU JUST FEEL YOU NEED A
+                PROFESSIONAL HELPING HAND AT YOUR GARDEN, CALL US UP
+            </p>
+            <button class="border-solid border-2 border-inherit text-white px-10 py-3 rounded-3xl mb-5">FIND OUT
+                MORE
+            </button>
+            <div class="flex items-center justify-center">
+                <input type="radio" class="ml-2 w-4 h-4 checked">
+                <input type="radio" class="ml-2 w-4 h-4">
+                <input type="radio" class="ml-2 w-4 h-4">
+            </div>
+
+        </div>
+
+        <section class="flex w-full ">
+            <div style="background-image: url('images/img7.jpg');"
+                class="bg-cover w-1/3 h-64 bg-center flex items-center justify-center flex-col py-5">
+                <img src="images/img4 (1).png">
+                <h1 class="tracking-wider text-lg">BEST PRACTICING</h1>
+            </div>
+            <div style="background-image: url('images/img8.jpg');"
+                class="bg-cover w-1/3 h-64 bg-center flex items-center justify-center flex-col py-5 ">
+                <img src="images/img5 (2).png">
+                <h1 class="text-white tracking-wider text-lg">FIRST PAGE</h1>
+            </div>
+            <div style="background-image: url('images/img7.jpg');"
+                class="bg-cover w-1/3 h-64 bg-center flex items-center justify-center flex-col py-5">
+                <img src="images/img6 (2).png">
+                <h1 class="text-white tracking-wider text-lg">RANGE OF SERVICES</h1>
+            </div>
+        </section>
+    </div>
+    <section class="flex items-center justify-center">
+        <img src="images/img10.jpg">
+        <div class="absolute r-0 ml-96">
+            <h1 class="text-4xl font-extrabold tracking-wide mb-5 text-gray-700">Why Energico ? </h1>
+            <h5 class="relative right-0 font-bold text-xl w-auto mb-5 tracking-wide text-gray-500">WELCOME TO THE TOP RATED
+                EXTERIOR DESIGN</br>
+                COMPANY
+            </h5>
+            <h6 class="w-96 text-lg mb-8 text-gray-500 tracking-wide">After years of practical ( both personal and
+                work-related)
+                experience at hand , our team of
+                passionate gardeners is your only option !
+            </h6>
+            <button class="border-solid border-2 border-yellow-500 px-10 py-3 rounded-3xl bg-yellow-500 text-white">FIND
+                OUT MORE</button>
+        </div>
+    </section>
+    <section>
+        <div style="background-image: url('images/img11.jpg');" class="bg-cover bg-center w-full h-80">
+            <div class="py-20 ml-20">
+                <h1 class="text-5xl text-white font-bold mb-4"><span
+                        class="block text-5xl text-yellow-500 font-bold">CREATE</span> The Perfect Garden!
+                </h1>
+                <button style="background-color: rgb(132, 204, 22);"
+                    class="border-solid border-green px-10 py-3 rounded-3xl text-white">FIND
+                    OUT MORE</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div style="background-image: url('images/img12.jpg');" class="bg-cover my-4 bg-center w-full h-96">
+            <div class="w-96 py-16 ml-20">
+                <h1 class="text-4xl font-bold mb-6 tracking-wide">Perform to the Highest Standards</h1>
+                <p class="text-xl mb-5 text-gray-600">With all kinds of garden design/care, lawn and plants in our
+                    range, we're your natural choice</p>
+                <button class="border-solid border-2 border-black px-10 py-3 rounded-3xl">GET A QUOTE</button>
+            </div>
+        </div>
+    </section>
+    <section class="flex items-center justify-center flex-col bg-gray-200">
+        <h1 class="text-5xl font-bold tracking-wide pt-16 text-gray-800">Our Advantages</h1>
+        <div class=" flex flex-wrap pt-8 px-24">
+            <div class="flex-box w-96 h-96 mx-7 flex items-center justify-center flex-col p-8">
+                <img src="images/img13.png" class="mb-2">
+                <h1 style="color: rgb(132, 204, 22);" class="font-bold text-3xl mb-3">CREATIVE IDEAS</h1>
+                <p class="text-gray-600 text-xl">Serving everyone from household owners to hotels and office, we make
+                    sure to provide a truly full
+                    cycle range of exterior design, landscaping and exterior remodeling</p>
+            </div>
+            <div class="flex-box w-96 h-96 mx-7 flex items-center justify-center flex-col p-8">
+                <img src="images/img15.png" class="mb-2">
+                <h1 style="color: rgb(132, 204, 22);" class="font-bold text-3xl mb-3">DECORATING</h1>
+                <p class="text-gray-600 text-xl">It does not really matter is it the Christmas time of the year or not,
+                    primimg your house with some
+                    decorative elements or masonry should not and is not a seasonal fad seasonal</p>
+            </div>
+            <div class="flex-box w-96 h-96 mx-7 flex items-center justify-center flex-col p-8">
+                <img src="images/img17.png" class="mb-2">
+                <h1 style="color: rgb(132, 204, 22);" class="font-bold text-3xl mb-3">GARDEN DESIGN</h1>
+                <p class="text-gray-600 text-xl">Did you have ever consider giving your house exterior or your landscape
+                    a
+                    unique look , implementing some superb design ideas you've seen superb before in the magazines
+
+            </div>
+            <div class="flex-box w-96 h-96 mx-7 flex items-center justify-center flex-col p-8">
+                <img src="images/img14.png" class="mb-2">
+                <h1 style="color: rgb(132, 204, 22);" class="font-bold text-3xl mb-3">EXPERT ADVICE</h1>
+                <p class="text-gray-600 text-xl">Regardless of how crazy your exterior idea is, our team of
+                    design-and-build experts will easily turn
+                    it into reality! This is true for projects of any scale</p>
+            </div>
+            <div class="flex-box w-96 h-96 mx-7 flex items-center justify-center flex-col p-8">
+                <img src="images/img16.png" class="mb-2">
+                <h1 class="font-bold text-3xl mb-3" style="color: rgb(132, 204, 22);">FRIENDLY PRICES</h1>
+                <p class="text-gray-600 text-xl">Having so much of offer, we also would love to give you thr best
+                    pricing on all of your services!
+                    This means that as compared to our market rivals, our pricing </p>
+            </div>
+            <div class="flex-box w-96 h-96 mx-7 flex items-center justify-center flex-col p-8">
+                <img src="images/img18.png" class="mb-2">
+                <h1 class="font-bold text-3xl mb-3" style="color: rgb(132, 204, 22);">SOFTSCAPES</h1>
+                <p class="text-gray-600 text-xl">Softscaping is the total opposite for the hardscaping is that it is
+                    niether as long-lasting as the
+                    hard structure, nor it is made of materials that are durable</p>
+            </div>
+        </div>
+    </section>
+    <section class="py-16">
+        <h1 class="text-4xl font-bold text-center pb-16" style="color: rgb(51 65 85);">See the Tips and Tricks for
+            gardeners in our blog</h1>
+        <div class="flex items-center justify-center">
+            <div class="flex-box w-2/6">
+                <img src="images/img21.jpg">
+                <h3 class="my-3.5 text-lg text-gray-600 tracking-wide">THE LESS CHEMICALS YOU USE, THE BETTER!</h3>
+                <p class="tracking-wide text-gray-600">So, we guess that if you're reading this blog entry now, you are
+                    an evid gardener yourself, right ?
+                    Which in turn means that as we're talking about the ways to compost your garden, the more you should
+                    be listening</p>
+            </div>
+            <div class="flex-box w-2/6 ml-8">
+                <img src="images/img20.jpg">
+                <h3 class="my-3.5 text-lg text-gray-600 tracking-wide">THE LESS CHEMICALS YOU USE, THE BETTER!</h3>
+                <p class="tracking-wide text-gray-600">So, we guess that if you're reading this blog entry now, you are
+                    an evid gardener yourself, right ?
+                    Which in turn means that as we're talking about the ways to compost your garden, the more you should
+                    be listening</p>
+            </div>
+        </div>
+    </section>
+    <section class="w-full h-64 bg-black">
+        <div class="flex items-center justify-center flex-col pt-12">
+            <img src="images/footer-logo.png" class="mb-4">
+            <nav class="navbar flex items-center justify-center mb-4">
+                <a href="#"><i class="fa-brands fa-facebook-f text-2xl mx-4 text-white"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter text-2xl mx-4 text-white"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p text-2xl mx-4 text-white"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram text-2xl mx-4 text-white"></i></a>
+            </nav>
+            <div class="text-white tracking-wider text-lg text-gray-300">Energico <i class="fas fa-copyright"></i> 2022
+                . Privacy Policy</div>
+        </div>
+    </section>
 </body>
 
 </html>
